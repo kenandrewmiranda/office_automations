@@ -8,7 +8,7 @@ Welcome to the Office Automation Scripts repository! This collection is all abou
 
 1. Clone this repository:
    ```bash
-   git clone [repository-link]
+   git clone https://github.com/kenandrewmiranda/office_automations.git
    ```
    
 2. Install any required libraries as mentioned in individual script comments.
