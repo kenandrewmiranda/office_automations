@@ -24,7 +24,7 @@ def create_filtered_report_and_draft_email():
     df = pd.read_excel(excel_file, engine='openpyxl')
 
     # Filter the DataFrame
-    filtered_df = df[df['Order Status'] == 'Processing']
+    filtered_df = df[df['Order Status'] == 'Processing'] # 'Order Status' and 'Processing' can be replaced with what you want.
 
     # Save the filtered rows to a new Excel file, including today's date in the filename
     filtered_file_path = f"Filtered Orders {today}.xlsx"
