@@ -1,34 +1,37 @@
 ---
 
-# Office Automation Scripts
+# Python Portfolio: Office Automation Scripts Showcase
 
-Welcome to the Office Automation Scripts repository! This collection is all about Python scripts designed to simplify and automate those repetitive office tasks that eat up your precious time. From handling Excel files to managing emails, these scripts aim to bring efficiency to your workflow.
+Welcome to my portfolio of Python projects, specifically tailored to demonstrate my proficiency with Python through practical applications in office automation. This repository serves as a showcase of my capabilities, featuring a curated set of scripts that streamline and automate a variety of routine office functions. These tasks range from Excel file manipulation to efficient email management, all designed to enhance productivity in everyday office operations.
 
-## 🚀 Quick Start
+## 🚀 Getting Started
 
-1. Clone this repository:
+To explore these scripts:
+
+1. Clone this repository to your local machine:
    ```bash
    git clone https://github.com/kenandrewmiranda/office_automations.git
    ```
    
-2. Install any required libraries as mentioned in individual script comments.
+2. Follow the instructions in the comments of each script to install any necessary libraries.
 
-3. Modify scripts as per your requirements, such as adjusting email addresses or file paths.
+3. Tailor the scripts to fit your specific needs by modifying email addresses, file paths, etc.
 
-4. Run the desired script to experience automation in action.
+4. Execute the script you need and watch the automation unfold.
 
-## 📜 List of Scripts (So Far)
+## 📜 Featured Scripts in this Portfolio
 
-- **Orders Report Automation**: Filters rows with a "Processing" status from an Excel file and creates a draft email in Outlook with the filtered data attached.
+- **Orders Report Automation**: Streamlines the process of filtering "Processing" status orders from an Excel file and drafting an email in Outlook with the relevant data attached for easy dissemination.
+- **Sales Report Automation**: An integrated Python solution for collating employee performance data from multiple Excel files, managing directory structures, and leveraging Microsoft Outlook for distributing the compiled reports.
 
-Will add more in the future.
+More scripts will be showcased as this portfolio grows.
 
-## ⚖️ License
+## ⚖️ Licensing
 
-These scripts are open-source, and anyone is free to use, modify, and distribute them. While no credit is required, a shoutout or link back to this repository would be appreciated if you find them useful!
+These Python scripts are shared as open-source material, made freely available for anyone interested in utilizing or modifying them for their personal or professional use. Attribution is not mandatory, but I would be grateful for a mention or link back to this repository if you find the scripts beneficial for your purposes!
 
-## 🤝 Contributing
+## 🤝 Invitation to Collaborate
 
-Feel free to fork this repository and submit pull requests with enhancements or new scripts that can benefit the community. Let's help each other make office tasks a little less tedious!
+I encourage you to fork this repository and contribute your own improvements or additional scripts that can expand the utility of this portfolio. Let's collaborate to refine these automation tools and reduce the monotony of office tasks!
 
 ---
