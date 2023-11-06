@@ -144,7 +144,6 @@ class PendingReports():
         self.employee_data_list = self.process_pending_reports()
         self.pending_data = self.combine_dataframes()
         
-
     def check_files(self) -> List[str]:
         """Check if the necessary files exist and return a list of pending files."""
         master_file_path = f"{self.config.get_folder_path('MASTER_FOLDER_PATH')}/{self.config.get_file_name('MASTER_FILE_NAME')}"
@@ -275,7 +274,7 @@ class MasterReport(PendingReports):
             dfs = {}
             for sheet_name in sheet_names:
                 dfs[sheet_name] = pd.read_excel(file_path, sheet_name=sheet_name)
-            dfs[self.current_month] = self.master_file  # Assuming self.master_file contains the updated data for the current month
+            dfs[self.current_month] = self.master_file
             with pd.ExcelWriter(file_path, engine='openpyxl') as writer:
                 for sheet_name, df in dfs.items():
                     df.to_excel(writer, sheet_name=sheet_name, index=False)
